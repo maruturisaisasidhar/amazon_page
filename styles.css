@@ -1,0 +1,122 @@
+.top1 {
+  display: flex;
+  align-items: center;
+  background-color: #000026;
+}
+
+.search-bar {
+  width: 500px;
+  height: 20px;
+  margin: 0 15px;
+  padding: 5px;
+  position: relative;
+  left: 23%;
+  border-radius: 10%;
+}
+
+.span1 {
+  margin-left: auto;
+  font-size: 14px;
+  position: relative;
+  right: 10px;
+  color: white;
+}
+
+.submit {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(208, 197, 72);
+  color: black;
+  position: relative;
+  left: 20%;
+  border-radius: 20%;
+}
+
+.background-container {
+  position: relative;
+}
+
+.img_large {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.outdiv {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.ind {
+  background-color: white;
+  width: 22%;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.int {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ini {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.shop-link {
+  color: #007185;
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.footer {
+  clear: both;
+  background-color: #131a22;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+.footer-img-background {
+  background-color: #000026; /* Background color for image section */
+  padding: 10px 0;
+}
+
+.footer-logo {
+  height: 40px; /* Adjust height as necessary */
+}
+
+.footer-links-background {
+  background-color: #131a22; /* Background color for links and copyright */
+  padding: 10px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #ddd;
+}
